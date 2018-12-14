@@ -28,6 +28,7 @@ public class EmpController {
     public String queryAll(Model model){
         model.addAttribute("emps",empService.queryAll());
         log.debug("this is a test message");
+        //this is a git test
         return "view/emplist";
     }
 
